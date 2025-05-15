@@ -17,6 +17,10 @@ body{
 
 header{
     color: $headerFontColor;
+    // position: absolute;
+    // z-index: 1;
+    position: fixed;
+    background-color: #fff;
 }
 .headerTop{
     @include centrDisplay();
@@ -84,8 +88,50 @@ header{
 
 .headerBottom{
     @include centrDisplay();
+    height: 80px;
 }
 .headerMenu{
-    display:flex;
+    @include centrDisplay();
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    img{
+        width: 32px;
+        height: 32px;
+        margin-top: 12px;
+    }
+    a{
+        text-decoration: none;
+        color: $headerFontColor;
+        font-weight: 500;
+        
+            img{
+            width: 12px;
+            height: 13px;
+            margin-left: 10px;
+            }
+    }
+ }
+
+.sales{
+    @include centrDisplay();
+    flex-direction: column;
+    border-radius:16px 16px 0 0;
+    width: 100%;
+    height: 100%;
+    img{
+        width: 23px;
+        height: 20px;
+        margin-top: 15px;
+    }
+    p{
+        color: #fff;
+        font-weight: 400;
+    }
 }
+// section{
+//     position: relative;
+//     overflow: hidden;
+//     display: block;
+//     visibility: visible;
+// }

@@ -8,8 +8,6 @@ body {
 
 header {
   color: #0B3954;
-  position: fixed;
-  background-color: #fff;
 }
 
 .headerTop {
@@ -82,48 +80,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
 }
 
 .headerMenu {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-.headerMenu img {
-  width: 32px;
-  height: 32px;
-  margin-top: 12px;
-}
-.headerMenu a {
-  text-decoration: none;
-  color: #0B3954;
-  font-weight: 500;
-}
-.headerMenu a img {
-  width: 12px;
-  height: 13px;
-  margin-left: 10px;
-}
-
-.sales {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 16px 16px 0 0;
-  width: 100%;
-  height: 100%;
-}
-.sales img {
-  width: 23px;
-  height: 20px;
-  margin-top: 15px;
-}
-.sales p {
-  color: #fff;
-  font-weight: 400;
 }/*# sourceMappingURL=furniture.css.map */
