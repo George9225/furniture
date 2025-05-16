@@ -9,7 +9,9 @@ body {
 header {
   color: #0B3954;
   position: fixed;
+  top: 0;
   background-color: #fff;
+  height: 160px;
 }
 
 .headerTop {

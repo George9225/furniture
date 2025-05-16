@@ -17,10 +17,10 @@ body{
 
 header{
     color: $headerFontColor;
-    // position: absolute;
-    // z-index: 1;
     position: fixed;
+    top: 0;
     background-color: #fff;
+    height: 160px;
 }
 .headerTop{
     @include centrDisplay();
@@ -129,9 +129,3 @@ header{
         font-weight: 400;
     }
 }
-// section{
-//     position: relative;
-//     overflow: hidden;
-//     display: block;
-//     visibility: visible;
-// }

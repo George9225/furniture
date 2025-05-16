@@ -1,0 +1,22 @@
+.layer {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layer .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1720px;
+  height: 670px;
+  border-radius: 32px;
+  background-color: #0B3954;
+}
+.layer .background .layerWrapper {
+  background-image: url(/img/imgLayer/layerWrapper.png);
+  width: 1178px;
+  height: 670px;
+  top: 68px;
+  left: 130px;
+}/*# sourceMappingURL=layer.css.map */
