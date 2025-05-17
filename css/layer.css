@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #F9F9F9;
 }
 .layer .background {
   display: flex;
@@ -10,13 +11,62 @@
   align-items: center;
   width: 1720px;
   height: 670px;
+  width: 100%;
   border-radius: 32px;
   background-color: #0B3954;
+  margin: 30px 96px 0 96px;
 }
 .layer .background .layerWrapper {
   background-image: url(/img/imgLayer/layerWrapper.png);
   width: 1178px;
   height: 670px;
-  top: 68px;
-  left: 130px;
+  margin-top: 75px;
+}
+.layer .background .layerWrapper h2 {
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.layer .background .layerWrapper h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.layer .background .layerWrapper .buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.layer .background .layerWrapper .buttons .getToShop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFB128;
+  width: 152px;
+  height: 43px;
+  border-radius: 45px;
+  margin-right: 28px;
+}
+.layer .background .layerWrapper .buttons .getToShop a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.layer .background .layerWrapper .buttons .seeColection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 185px;
+  height: 43px;
+  border-radius: 45px;
+}
+.layer .background .layerWrapper .buttons .seeColection a {
+  text-decoration: none;
+  color: #FFB128;
+  font-weight: 600;
 }/*# sourceMappingURL=layer.css.map */
