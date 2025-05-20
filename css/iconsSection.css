@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+.iconesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sora", sans-serif;
+  margin-top: 60px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1220px;
+  width: 100%;
+}
+
+.iconLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 180px;
+  background-color: #F9F9F9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 32px 32px 32px 32px;
+  margin-left: 12px;
+}
+.iconLinks img {
+  width: 80px;
+  margin-bottom: 30px;
+}
+.iconLinks a {
+  text-decoration: none;
+  color: #0B3954;
+  font-weight: 500;
+}/*# sourceMappingURL=iconsSection.css.map */

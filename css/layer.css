@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .layer {
+  font-family: "Poppins", sans-serif;
   margin-top: 160px;
   display: flex;
   justify-content: center;
@@ -23,6 +25,7 @@
   margin-top: 75px;
 }
 .layer .background .layerWrapper h2 {
+  margin: 0;
   font-weight: 600;
   font-size: 12px;
   color: white;
@@ -30,6 +33,7 @@
   margin-top: 50px;
 }
 .layer .background .layerWrapper h1 {
+  margin: 0;
   font-weight: 700;
   font-size: 64px;
   color: white;

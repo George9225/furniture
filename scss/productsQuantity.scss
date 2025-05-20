@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+$darkBlue:#0B3954;
+$yellow: #FFB128;
+$gray:#F9F9F9;
+
+@mixin centrDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productsQuantity{
+    font-family: "Sora", sans-serif;
+    @include centrDisplay();
+    margin-top: 100px;
+}
+.searchFor{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    max-width: 610px;
+    // height: 193px;
+    width: 100%;
+
+    h6{
+        margin: 0;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 600;
+        color: $darkBlue;
+    }
+    span{
+        font-size: 48px;
+        line-height: 55px;
+        font-weight: 600;
+        color: $yellow;
+        margin-bottom: 5px;
+    }
+    h2{
+        margin: 0;
+        font-size: 48px;
+        line-height: 55px;
+        font-weight: 700;
+        color: $darkBlue;
+    }
+}
+.twoYellowLines{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+    max-width: 610px;
+    height: 96px;
+    width: 100%;
+    
+
+    .yellowLine{
+        width: 22px;
+        height: 7px;
+        background-color: $yellow;
+        margin-right: 25px;
+        margin-left: 40px;
+        border-radius: 4px;
+
+    }
+    .descTitle{
+        h4{
+            margin: 0;
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 700;
+            color: $darkBlue;
+        }
+        h5{
+            margin: 0;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #5c676d;
+        }
+    }
+}

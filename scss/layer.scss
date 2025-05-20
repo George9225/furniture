@@ -1,4 +1,9 @@
-$headerFontColor:#0B3954;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$darkBlue:#0B3954;
+$yellow: #FFB128;
+$gray:#F9F9F9;
+
 @mixin centrDisplay{
     display: flex;
     justify-content: center;
@@ -6,16 +11,17 @@ $headerFontColor:#0B3954;
 }
 
 .layer{
+    font-family: "Poppins", sans-serif;
     margin-top: 160px;
     @include centrDisplay();
-    background-color:#F9F9F9;
+    background-color:$gray;
     .background{
         @include centrDisplay();
         width: 1720px;
         height: 670px;
         width: 100%;
         border-radius: 32px;
-        background-color: $headerFontColor;
+        background-color: $darkBlue;
         margin:30px 96px 0 96px;
 
         .layerWrapper{
@@ -24,6 +30,7 @@ $headerFontColor:#0B3954;
             height: 670px;
             margin-top: 75px;
             h2{
+                margin: 0;
                 font-weight: 600;
                 font-size: 12px;
                 color: white;
@@ -31,6 +38,7 @@ $headerFontColor:#0B3954;
                 margin-top: 50px;
             }
             h1{
+                margin: 0;
                 font-weight:700;
                 font-size: 64px;
                 color: white;
@@ -43,7 +51,7 @@ $headerFontColor:#0B3954;
                 margin-left: 50px;
                  .getToShop{
                     @include centrDisplay();
-                    background-color:#FFB128;
+                    background-color:$yellow;
                     width: 152px;
                     height: 43px;
                     border-radius: 45px;
@@ -62,7 +70,7 @@ $headerFontColor:#0B3954;
                     border-radius: 45px;
                         a{
                         text-decoration: none;
-                        color: #FFB128; 
+                        color: $yellow; 
                         font-weight: 600; 
                         }  
                 }

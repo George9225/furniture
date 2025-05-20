@@ -3,10 +3,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 header {
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@ header {
   left: 50%;
   transform: translate(-50%, 0%);
   top: 0;
-  background-color: #fff;
+  background-color: white;
   width: 100%;
   height: 160px;
   box-shadow: 0px 1px #F9F9F9;
@@ -35,7 +35,7 @@ header {
 }
 .headerTop .logoFurniture img {
   max-width: 240px;
-  height: 43.125px;
+  height: 43px;
 }
 .headerTop .search {
   width: 610px;
@@ -54,7 +54,7 @@ header {
   padding-left: 40px;
   border: none;
   border-radius: 6px;
-  background-color: #F5F5F5;
+  background-color: #F9F9F9;
   font-weight: 400;
 }
 .headerTop .search input::-moz-placeholder {
@@ -80,7 +80,7 @@ header {
   font-size: 11px;
   line-height: 1;
   background-color: #333;
-  color: #fff;
+  color: white;
   min-width: 18px;
   text-align: center;
   border-radius: 18px;
@@ -127,6 +127,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #FFB128;
   flex-direction: column;
   border-radius: 16px 16px 0 0;
   width: 100%;
@@ -138,6 +139,6 @@ header {
   margin-top: 15px;
 }
 .sales p {
-  color: #fff;
+  color: white;
   font-weight: 400;
-}/*# sourceMappingURL=furniture.css.map */
+}/*# sourceMappingURL=header.css.map */

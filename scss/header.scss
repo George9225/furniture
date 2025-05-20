@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-$headerFontColor:#0B3954;
 
+$darkBlue:#0B3954;
+$yellow: #FFB128;
+$gray:#F9F9F9;
 
 @mixin centrDisplay{
     display: flex;
@@ -12,21 +14,21 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 
 header{
+    font-family: "Poppins", sans-serif;
     @include centrDisplay();
     flex-direction: column;
-    color: $headerFontColor;
+    color: $darkBlue;
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0%);
     top: 0;
-    background-color: #fff;
+    background-color: white;
     width: 100%;
     height: 160px;
-    box-shadow: 0px 1px #F9F9F9;
+    box-shadow: 0px 1px $gray;
 }
 .headerTop{
     @include centrDisplay();
@@ -38,7 +40,7 @@ header{
         margin-right: 55px;
         img {
             max-width: 240px;
-            height: 43.125px;
+            height: 43px;
         }
     }
 
@@ -59,12 +61,12 @@ header{
             padding-left: 40px;
             border: none;
             border-radius: 6px;
-            background-color: #F5F5F5;
+            background-color: $gray;
             font-weight: 400;
         }
 
         input::placeholder {
-            color: $headerFontColor;
+            color: $darkBlue;
             font-size: 15px;
         }
     }
@@ -82,7 +84,7 @@ header{
             font-size: 11px;
             line-height: 1;
             background-color: #333;
-            color: #fff;
+            color: white;
             min-width: 18px;
             text-align: center;
             border-radius: 18px;
@@ -112,7 +114,7 @@ header{
     }
     a{
         text-decoration: none;
-        color: $headerFontColor;
+        color: $darkBlue;
         font-weight: 500;
         
             img{
@@ -125,6 +127,7 @@ header{
 
 .sales{
     @include centrDisplay();
+    background-color: $yellow;
     flex-direction: column;
     border-radius:16px 16px 0 0;
     width: 100%;
@@ -135,7 +138,7 @@ header{
         margin-top: 15px;
     }
     p{
-        color: #fff;
+        color: white;
         font-weight: 400;
     }
 }
