@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.cards .kitchenCard .yellowLine, .cards .officeCard .yellowLine, .cards .bedroomCard .yellowLine {
+  width: 22px;
+  height: 7px;
+  background-color: #FFB128;
+  margin-right: 25px;
+  margin-left: 40px;
+  border-radius: 4px;
+}
+
+.cards .kitchenCard, .cards .officeCard, .cards .bedroomCard {
+  width: 600px;
+  height: 600px;
+  border-radius: 32px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.cards .kitchenCard h4, .cards .officeCard h4, .cards .bedroomCard h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+  margin-top: 404px;
+  margin-left: 40px;
+}
+.cards .kitchenCard h2, .cards .officeCard h2, .cards .bedroomCard h2 {
+  font-size: 48px;
+  line-height: 24px;
+  font-weight: 700;
+  color: white;
+  margin-left: 40px;
+}
+.threeCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .bedroomCard {
+  background-image: url(/img/imgCards/bedroomCard.png);
+}
+.cards .officeCard {
+  background-image: url(/img/imgCards/officeCard.png);
+}
+.cards .kitchenCard {
+  background-image: url(/img/imgCards/kitchenCard.png);
+}/*# sourceMappingURL=threeCard.css.map */

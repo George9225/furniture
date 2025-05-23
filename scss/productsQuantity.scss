@@ -9,6 +9,14 @@ $gray:#F9F9F9;
     justify-content: center;
     align-items: center;
 }
+%yelowLineStyle{
+        width: 22px;
+        height: 7px;
+        background-color: $yellow;
+        margin-right: 25px;
+        margin-left: 40px;
+        border-radius: 4px;
+}
 .productsQuantity{
     font-family: "Sora", sans-serif;
     @include centrDisplay();
@@ -19,7 +27,6 @@ $gray:#F9F9F9;
     justify-content: left;
     flex-direction: column;
     max-width: 610px;
-    // height: 193px;
     width: 100%;
 
     h6{
@@ -55,14 +62,9 @@ $gray:#F9F9F9;
     
 
     .yellowLine{
-        width: 22px;
-        height: 7px;
-        background-color: $yellow;
-        margin-right: 25px;
-        margin-left: 40px;
-        border-radius: 4px;
-
+       @extend %yelowLineStyle;
     }
+
     .descTitle{
         h4{
             margin: 0;
