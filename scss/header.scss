@@ -123,6 +123,10 @@ header{
             margin-left: 10px;
             }
     }
+    a:hover{
+        color: $yellow;
+    }
+   
  }
 
 .sales{
@@ -141,4 +145,7 @@ header{
         color: white;
         font-weight: 400;
     }
+}
+.sales:hover{
+    background-color: $darkBlue;
 }

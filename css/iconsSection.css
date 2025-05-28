@@ -19,6 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   flex-direction: column;
   width: 180px;
   background-color: #F9F9F9;
@@ -35,4 +36,9 @@
   text-decoration: none;
   color: #0B3954;
   font-weight: 500;
+}
+
+.iconLinks:hover {
+  background-color: white;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
 }/*# sourceMappingURL=iconsSection.css.map */

@@ -122,6 +122,9 @@ header {
   height: 13px;
   margin-left: 10px;
 }
+.headerMenu a:hover {
+  color: #FFB128;
+}
 
 .sales {
   display: flex;
@@ -141,4 +144,8 @@ header {
 .sales p {
   color: white;
   font-weight: 400;
+}
+
+.sales:hover {
+  background-color: #0B3954;
 }/*# sourceMappingURL=header.css.map */

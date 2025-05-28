@@ -23,6 +23,7 @@ $gray:#F9F9F9;
 
 .iconLinks{
     @include centrDisplay();
+    cursor:pointer;
     flex-direction: column;
     width:180px;
     background-color: $gray;
@@ -41,4 +42,8 @@ $gray:#F9F9F9;
         font-weight: 500;
         
     }
+ }
+ .iconLinks:hover{
+    background-color: white;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.08);
  }
