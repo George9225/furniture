@@ -1,14 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
-$darkBlue:#0B3954;
-$yellow: #FFB128;
-$gray:#F9F9F9;
 
-@mixin centrDisplay{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .iconesSection{
     @include centrDisplay();
     font-family: "Sora", sans-serif;

@@ -1,21 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-$darkBlue:#0B3954;
-$yellow: #FFB128;
-$gray:#F9F9F9;
-
-@mixin centrDisplay{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 header{
     font-family: "Poppins", sans-serif;
     @include centrDisplay();
@@ -29,6 +11,7 @@ header{
     width: 100%;
     height: 160px;
     box-shadow: 0px 1px $gray;
+    z-index: 1;
 }
 .headerTop{
     @include centrDisplay();
@@ -62,12 +45,13 @@ header{
             border: none;
             border-radius: 6px;
             background-color: $gray;
-            font-weight: 400;
+            @extend %fontStyle_h3;
+            color: $darkBlue;
         }
 
         input::placeholder {
             color: $darkBlue;
-            font-size: 15px;
+            @extend %fontStyle_h3;
         }
     }
     .loginSymbols{
